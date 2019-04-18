@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="src/main.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Mon Site</title>
+</head>
+<body>
+
+<h1>Notation de film</h1>
+
+<div id="box"></div>
+
+<script type="mustache/x-tmpl" id="helloTmpl">
+    <h4>
+        {{title}} {{note}}/5
+    </h4>
+
+</script>
+
+<ul class="navigation">
+    <h4>Synopsis</h4>
+    <li class="toggleSubMenu"><span>Aquaman</span>
+        <ul class="subMenu">
+            <p>Les origines d'un héros malgré lui, dont le destin est d'unir deux mondes opposés, la terre et la mer.
+                Cette histoire épique est celle d'un homme ordinaire destiné à devenir le roi des Sept Mers.</p>
+        </ul>
+    </li>
+    <li class="toggleSubMenu"><span>Sauver ou périr</span>
+        <ul class="subMenu">
+            <p>Franck est Sapeur-Pompier de Paris. Il sauve des gens. Il vit dans la caserne avec sa femme qui accouche
+                de jumelles. Il est heureux. Lors d'une intervention sur un incendie, il se sacrifie pour sauver ses
+                hommes. A son réveil dans un centre de traitement des Grands Brûlés, il comprend que son visage a fondu
+                dans les flammes. Il va devoir réapprendre à vivre, et accepter d'être sauvé à son tour.</p>
+        </ul>
+    </li>
+    <li class="toggleSubMenu"><span>Les annimaux fantastiques</span>
+        <ul class="subMenu">
+            <p>1927. Quelques mois après sa capture, le célèbre sorcier Gellert Grindelwald s'évade comme il l'avait
+                promis et de façon spectaculaire. Réunissant de plus en plus de partisans, il est à l'origine d'attaque
+                d'humains normaux par des sorciers et seul celui qu'il considérait autrefois comme un ami, Albus
+                Dumbledore, semble capable de l'arrêter. Mais Dumbledore va devoir faire appel au seul sorcier ayant
+                déjoué les plans de Grindelwald auparavant : son ancien élève Norbert Dragonneau. L'aventure qui les
+                attend réunit Norbert avec Tina, Queenie et Jacob, mais cette mission va également tester la loyauté de
+                chacun face aux nouveaux dangers qui se dressent sur leur chemin, dans un monde magique plus dangereux
+                et divisé que jamais.</p>
+        </ul>
+    </li>
+</ul>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
